@@ -1,0 +1,1798 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "description": "API para uso exclusivo de otros servicios",
+    "title": "APES",
+    "contact": {
+      "email": "hnoriega@buenosaires.gob.ar"
+    },
+    "license": {
+      "name": "API Incidentes y Despliegues",
+      "url": "http://noc-mesa.buenosaires.gob.ar"
+    }},
+
+    "components": {
+      "schemas": {
+        "id": {
+          "properties": {
+            "uuid": {
+              "type": "string"
+            }
+          }
+        }
+  
+      , "bookRequestPostBody": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "format": "string"
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          }
+        }
+      }
+    }},
+
+ 
+  "paths": {
+
+    "/token/": {
+      "get": {
+        "tags": [
+          "Utilidades"
+        ],
+        "summary": "Genera un token aleatorio",
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    }, 
+    
+    "/permisosweb/{cuit}": {
+      "get": {
+        "tags": [
+          "Utilidades"
+        ],
+        "summary": "Páginas habilitadas por cuit",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "cuit",
+            "required": true,
+            "description": "CUIT",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+    "/consultanoc/{id}": {
+      "get": {
+        "tags": [
+          "NOC"
+        ],
+        "summary": "Devuelve los datos de un NOC al alcance del técnico configurado",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "description": "Número del noc a consultar",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+    "/consultabandejaiyd/": {
+      "get": {
+        "tags": [
+          "NOC"
+        ],
+        "summary": "Devuelve el contenido la bandeja Incidentes y Despliegues",
+
+
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    }
+    ,
+
+
+
+    "/crearnocdba/{solicitante},{asunto},{descripcion},{modulo}": {
+      "get": {
+        "tags": [
+          "NOC"
+        ],
+        "summary": "Crea un noc con plantilla Solicitudes a Base de Datos",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "solicitante",
+            "required": true,
+            "description": "Solicitante",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+
+          {
+            "in": "path",
+            "name": "asunto",
+            "required": true,
+            "description": "Asunto",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+
+          {
+            "in": "path",
+            "name": "descripcion",
+            "required": true,
+            "description": "Descripción",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "modulo",
+            "required": true,
+            "description": "Módulo (SADE EE, SADE LOYS, etc)",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+
+
+    "/adjuntararchivo/{noc},{path},{nombrearchivo}": {
+      "get": {
+        "tags": [
+          "NOC"
+        ],
+        "summary": "Adjunta un archivo a un NOC",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "noc",
+            "required": true,
+            "description": "Número de noc",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+
+          {
+            "in": "path",
+            "name": "path",
+            "required": true,
+            "description": "Directorio en el que se encuentra el archivo",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+
+          {
+            "in": "path",
+            "name": "nombrearchivo",
+            "required": true,
+            "description": "Nombre y extensión del archivo",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }],
+
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+
+    
+
+    "/editargrupo/{noc},{grupo}": {
+      "get": {
+        "tags": [
+          "NOC"
+        ],
+        "summary": "Edita el grupo de un NOC",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "noc",
+            "required": true,
+            "description": "Número de noc",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+
+          {
+            "in": "path",
+            "name": "grupo",
+            "required": true,
+            "description": "Grupo destino",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }],
+
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+
+    
+
+    "/editardba/{noc},{grupo}": {
+      "get": {
+        "tags": [
+          "NOC"
+        ],
+        "summary": "Edita el grupo de un NOC y agrega detalles para DBA (entorno, telefono, ubicacion, etc",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "noc",
+            "required": true,
+            "description": "Número de noc",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+
+          {
+            "in": "path",
+            "name": "grupo",
+            "required": true,
+            "description": "Grupo destino",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }],
+
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+
+
+
+    "/consultadb/{entorno}, {query}": {
+      "get": {
+        "tags": [
+          "BBDD"
+        ],
+        "summary": "Ejecuta una consulta en la BBDD",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "entorno",
+            "required": true,
+            "description": "Entorno",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+
+          {
+            "in": "path",
+            "name": "query",
+            "required": true,
+            "description": "Query SQL sin punto y coma",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+    "/sqlplus/{entorno}, {query}": {
+      "get": {
+        "tags": [
+          "BBDD"
+        ],
+        "summary": "Ejecuta un script con sqlplus (entorno stbsqlplus).",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "entorno",
+            "required": true,
+            "description": "Entorno",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+
+          {
+            "in": "path",
+            "name": "query",
+            "required": true,
+            "description": "SQL",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+    "/consultasolr/{core}, {query}": {
+      "get": {
+        "tags": [
+          "SOLR"
+        ],
+        "summary": "Ejecuta una consulta en SOLR",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "core",
+            "required": true,
+            "description": "Nombre del core a consultar (Al momento coreUSUARIOS)",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "query",
+            "required": true,
+            "description": "Query escrita en lucene",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+
+
+
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+    
+    "/updatesolr/{core}, {doc}": {
+      "get": {
+        "tags": [
+          "SOLR"
+        ],
+        "summary": "Sube un documento a SOLR, sobrescribe el anterior",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "core",
+            "required": true,
+            "description": "Nombre del core a actualizar (Al momento coreUSUARIOS)",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "doc",
+            "required": true,
+            "description": "Documento JSON",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+
+
+
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+      
+    "/deletesolr/{core}, {doc}": {
+      "get": {
+        "tags": [
+          "SOLR"
+        ],
+        "summary": "Elimina un documento de SOLR, sobrescribe el anterior",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "core",
+            "required": true,
+            "description": "Nombre del core a actualizar (Al momento coreUSUARIOS)",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "doc",
+            "required": true,
+            "description": "ID único del documento a eliminar, depende del core",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+
+
+
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+    
+    "/consultaldap/{entorno}, {usuario}, {atributo}": {
+      "get": {
+        "tags": [
+          "LDAP"
+        ],
+        "summary": "Consulta un usuario en LDAP",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "entorno",
+            "required": true,
+            "description": "Entorno a consultar (capa)",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "usuario",
+            "required": true,
+            "description": "Usuario a consultar",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "atributo",
+            "required": true,
+            "description": "Atributo a consultar (employeeType, mail, uid)",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+
+
+
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+    
+    "/insertldap/{entorno}, {usuario}": {
+      "get": {
+        "tags": [
+          "LDAP"
+        ],
+        "summary": "Crea un usuario en LDAP",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "entorno",
+            "required": true,
+            "description": "Entorno (capa)",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "usuario",
+            "required": true,
+            "description": "Usuario a crear",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+
+
+
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+        
+    "/deleteldap/{entorno}, {usuario}": {
+      "get": {
+        "tags": [
+          "LDAP"
+        ],
+        "summary": "Elimina un usuario en LDAP",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "entorno",
+            "required": true,
+            "description": "Entorno (capa)",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "usuario",
+            "required": true,
+            "description": "Usuario a eliminar",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+
+
+
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+    "/updateldap/{entorno}, {usuario}, {accion}, {atributo}, {valor}": {
+      "get": {
+        "tags": [
+          "LDAP"
+        ],
+        "summary": "Modifica un usuario en LDAP:",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "entorno",
+            "required": true,
+            "description": "Entorno (capa)",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "usuario",
+            "required": true,
+            "description": "Usuario a modificar",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "accion",
+            "required": true,
+            "description": "Acción a realizar ( MODIFY_ADD, MODIFY_DELETE ).",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "atributo",
+            "required": true,
+            "description": "Atributo a modificar (employeeType, uid, mail)",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "valor",
+            "required": true,
+            "description": "Valor a modificar",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+
+
+
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+
+    
+    "/listarpermisos/{entorno}": {
+      "get": {
+        "tags": [
+          "HERRAMIENTAS"
+        ],
+        "summary": "Lista todos los permisos existentes",
+
+        "parameters": [ {
+          "in": "path",
+          "name": "entorno",
+          "required": true,
+          "description": "entorno",
+          "schema": {
+            "$ref": "#/components/schemas/id"
+          }
+        }
+          
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+
+    
+    "/buscarpermisos/{usuario},{entorno}": {
+      "get": {
+        "tags": [
+          "HERRAMIENTAS"
+        ],
+        "summary": "Buscar permisos por usuario, devuelve todos los permisos detallando cuales tiene y cuales no",
+
+        "parameters": [ {
+          "in": "path",
+          "name": "usuario",
+          "required": true,
+          "description": "Usuario",
+          "schema": {
+            "$ref": "#/components/schemas/id"
+          }
+        },
+        {
+          "in": "path",
+          "name": "entorno",
+          "required": true,
+          "description": "Entorno",
+          "schema": {
+            "$ref": "#/components/schemas/id"
+          }
+        }
+          
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    "/asignarpermiso/": {
+      "post": {
+        "tags": [
+          "HERRAMIENTAS"
+        ],
+        "summary": "Asignar permisos a un usuario",
+        "requestBody": {
+            "description": "Json con los permisos",
+            "in": "body",
+            "name": "permisos",
+            "required": true,
+            "content": {
+              "application/json": {
+            
+            "schema": {
+              "$ref": "#/components/schemas/bookRequestPostBody"
+            }}}}
+          
+        ,
+
+
+
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+
+
+
+
+
+
+    "/bloqueoee/{entorno}, {sistema}, {expediente}": {
+      "get": {
+        "tags": [
+          "Bloquear EE"
+        ],
+        "summary": "Bloquea un expediente electronico:",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "entorno",
+            "required": true,
+            "description": "Entorno",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "sistema",
+            "required": true,
+            "description": "Sistema origen de la solicitud",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "expediente",
+            "required": true,
+            "description": "Código de expediente",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+
+
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+    "/desbloqueoee/{entorno}, {sistema}, {expediente}": {
+      "get": {
+        "tags": [
+          "Bloquear EE"
+        ],
+        "summary": "Desbloquea un expediente electronico:",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "entorno",
+            "required": true,
+            "description": "Entorno",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "sistema",
+            "required": true,
+            "description": "Sistema origen de la solicitud",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "expediente",
+            "required": true,
+            "description": "Código de expediente",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+
+
+
+
+
+    
+
+    
+    "/vinculardoc/{entorno},{expediente},{documento},{usuario},{sistema}": {
+      "get": {
+        "tags": [
+          "Vincular documentos a un EE"
+        ],
+        "summary": "Vincula documentos a un expediente electronico:",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "entorno",
+            "required": true,
+            "description": "Entorno",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "expediente",
+            "required": true,
+            "description": "Código de expediente",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "documento",
+            "required": true,
+            "description": "Número de documento",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "usuario",
+            "required": true,
+            "description": "Usuario vinculador",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "sistema",
+            "required": true,
+            "description": "Sistema",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+
+
+
+    
+    
+    "/hacerdefinitivo/{entorno},{expediente},{usuario},{sistema}": {
+      "get": {
+        "tags": [
+          "Vincular documentos a un EE"
+        ],
+        "summary": "Vincula documentos a un expediente electronico de forma definitiva:",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "entorno",
+            "required": true,
+            "description": "Entorno",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "expediente",
+            "required": true,
+            "description": "Código de expediente",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          
+          {
+            "in": "path",
+            "name": "usuario",
+            "required": true,
+            "description": "Usuario vinculador",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "sistema",
+            "required": true,
+            "description": "Sistema",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+
+    
+    "/c41firmadotrabado/": {
+      "get": {
+        "tags": [
+          "C41 Firmado y Trabado"
+        ],
+        "summary": "Devuelve un json con la cantidad de incidentes actuales",
+
+        "parameters": [
+          
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+
+    
+    "/regulatoriotad/": {
+      "get": {
+        "tags": [
+          "Regulatorios"
+        ],
+        "summary": "Regulatorio TAD por Autoprotección",
+
+        "parameters": [
+          
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+
+    
+    "/tadescribanos/": {
+      "get": {
+        "tags": [
+          "Regulatorios"
+        ],
+        "summary": "Regulatorio TAD Escribanos",
+
+        "parameters": [
+          
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+
+    
+    "/vaciarescribanos/": {
+      "get": {
+        "tags": [
+          "Regulatorios"
+        ],
+        "summary": "Limpia listado de escribanos",
+
+        "parameters": [
+          
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+
+    
+    "/buifallaengeneracion/": {
+      "get": {
+        "tags": [
+          "Regulatorios"
+        ],
+        "summary": "TAD BUI Falla en Generación",
+
+        "parameters": [
+          
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+
+    
+    "/buigeneracionboleta/": {
+      "get": {
+        "tags": [
+          "Regulatorios"
+        ],
+        "summary": "TAD BUI Generación de Boleta",
+
+        "parameters": [
+          
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+
+    
+    "/harbour/": {
+      "get": {
+        "tags": [
+          "Regulatorios"
+        ],
+        "summary": "Regulatorio Harbour",
+
+        "parameters": [
+          
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+
+    
+    "/sacuna/": {
+      "get": {
+        "tags": [
+          "Regulatorios"
+        ],
+        "summary": "Regulatorio SACUNA",
+
+        "parameters": [
+          
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    "/updatepermiso/": {
+      "post": {
+        "tags": [
+          "LDAP"
+        ],
+        "summary": "Actualiza permisos en LDAP",
+        "requestBody": {
+            "description": "Json con los permisos ",
+            "in": "body",
+            "name": "permisos",
+            "required": true,
+            "content": {
+              "application/json": {
+            
+            "schema": {
+              "$ref": "#/components/schemas/bookRequestPostBody"
+            }}}}
+          
+        ,
+
+
+
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    "/ruaga/": {
+      "post": {
+        "tags": [
+          "Regulatorios"
+        ],
+        "summary": "Regulatorio RLM RUAGA por solapamiento",
+        "requestBody": {
+            "description": "Json con anio y numero",
+            "in": "body",
+            "name": "data",
+            "required": true,
+            "content": {
+              "application/json": {
+            
+            "schema": {
+              "$ref": "#/components/schemas/bookRequestPostBody"
+            }}}}
+          
+        ,
+
+
+
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    "/reservagedo/": {
+      "post": {
+        "tags": [
+          "HERRAMIENTAS"
+        ],
+        "summary": "Quitar reserva GEDO por documento",
+        "requestBody": {
+            "description": "Json con los documentos",
+            "in": "body",
+            "name": "documentos",
+            "required": true,
+            "content": {
+              "application/json": {
+            
+            "schema": {
+              "$ref": "#/components/schemas/bookRequestPostBody"
+            }}}}
+          
+        ,
+
+
+
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    "/pasewf/": {
+      "post": {
+        "tags": [
+          "HERRAMIENTAS"
+        ],
+        "summary": "Pase de expedientes WF",
+        "requestBody": {
+            "description": "Json con los datos",
+            "in": "body",
+            "name": "datos",
+            "required": true,
+            "content": {
+              "application/json": {
+            
+            "schema": {
+              "$ref": "#/components/schemas/bookRequestPostBody"
+            }}}}
+          
+        ,
+
+
+
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    "/pasewfguarda/": {
+      "post": {
+        "tags": [
+          "HERRAMIENTAS"
+        ],
+        "summary": "Pase de expedientes WF a Guarda temporal",
+        "requestBody": {
+            "description": "Json con los datos",
+            "in": "body",
+            "name": "datos",
+            "required": true,
+            "content": {
+              "application/json": {
+            
+            "schema": {
+              "$ref": "#/components/schemas/bookRequestPostBody"
+            }}}}
+          
+        ,
+
+
+
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    "/updatesolrpost/": {
+      "post": {
+        "tags": [
+          "SOLR"
+        ],
+        "summary": "Metodo post para update solr",
+        "requestBody": {
+            "description": "Json con los documentos",
+            "in": "body",
+            "name": "documentos",
+            "required": true,
+            "content": {
+              "application/json": {
+            
+            "schema": {
+              "$ref": "#/components/schemas/bookRequestPostBody"
+            }}}}
+          
+        ,
+
+
+
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+
+    
+    
+    
+    "/firmanteresoloys/{firmanteviejo},{firmantenuevo}": {
+      "get": {
+        "tags": [
+          "HERRAMIENTAS"
+        ],
+        "summary": "Modifica el usuario firmante de resolución en loys que impide consultar documentos",
+
+        "parameters": [
+          {
+            "in": "path",
+            "name": "firmanteviejo",
+            "required": true,
+            "description": "Firmante dado de baja",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          },
+          {
+            "in": "path",
+            "name": "firmantenuevo",
+            "required": true,
+            "description": "Firmante nuevo",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        ],
+
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    },
+
+
+    
+
+    
+    "/modulopermisos/{usuario}": {
+      "get": {
+        "tags": [
+          "HERRAMIENTAS"
+        ],
+        "summary": "Modulos habilitados por usuario para permisos",
+
+        "parameters": [{
+          "in": "path",
+          "name": "usuario",
+          "required": true,
+          "description": "Usuario",
+          "schema": {
+            "$ref": "#/components/schemas/id"
+          }
+        }
+          
+        ],
+        
+        
+      "produces": [
+        "application/json"
+      ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/id"
+            }
+          }
+        }
+      }
+    }
+
+
+
+
+  }
+
+
+}

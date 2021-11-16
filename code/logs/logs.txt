@@ -1,0 +1,397 @@
+ERROR:root:HOLA
+ERROR:root:asdas
+ERROR:root:asdas
+ERROR:root:asd2as
+INFO:root:Usuario autorizado 12345678
+INFO:root:Usuario autorizado 12345678
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token 12345678, grupo servicio usuarios, código servicio 1, nombre servicio consultaPorUsuario
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 2, nombre servicio: consultaPorIdSector
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 2, nombre servicio: consultaPorIdSector
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 2, nombre servicio: consultaPorIdSector
+INFO:root:Usuario no autorizado 123456781
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 2, nombre servicio: consultaPorIdSector
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 2, nombre servicio: consultaPorIdSector
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 2, nombre servicio: consultaPorIdSector
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 2, nombre servicio: consultaPorIdSector
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 2, nombre servicio: consultaPorIdSector
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 2, nombre servicio: consultaPorIdSector
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 2, nombre servicio: consultaPorIdSector
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 2, nombre servicio: consultaPorIdSector
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 2, nombre servicio: consultaPorSector
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 3, nombre servicio: consultaPorSector_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 3, nombre servicio: consultaPorSector_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 3, nombre servicio: consultaPorSector_Q
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: sectores, código servicio: 4, nombre servicio: consultaPorReparticion
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El usuario no tiene permiso para utilizar este servicio
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: sectores, código servicio: 5, nombre servicio: consultaPorReparticion_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: sectores, código servicio: 6, nombre servicio: consultaPorIdSector
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: reparticiones, código servicio: 7, nombre servicio: consultaPorCodigo
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: reparticiones, código servicio: 7, nombre servicio: consultaPorCodigo
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: reparticiones, código servicio: 7, nombre servicio: consultaPorCodigo
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El usuario no tiene permiso para utilizar este servicio
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: reparticiones, código servicio: 8, nombre servicio: consultaPorRepaPadre
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: reparticiones, código servicio: 9, nombre servicio: consultaPorRepaPadre_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: reparticiones, código servicio: 8, nombre servicio: consultaPorRepaPadre
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: reparticiones, código servicio: 10, nombre servicio: consultaPorId
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: reparticiones, código servicio: 10, nombre servicio: consultaPorId
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: reparticiones, código servicio: 10, nombre servicio: consultaPorId
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El id_permiso no existe
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: usuarios, código servicio: 1, nombre servicio: consultaPorUsuario
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El grupo de permisos no existe
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El usuario no tiene permiso para utilizar este servicio
+INFO:root:Usuario autorizado 12345678
+ERROR:root:El usuario no tiene permiso para utilizar este servicio
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 11, nombre servicio: consultaCcooEnviada
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 11, nombre servicio: consultaCcooEnviada
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 12, nombre servicio: consultaCcooEnviada_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 12, nombre servicio: consultaCcooEnviada_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 12, nombre servicio: consultaCcooEnviada_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 12, nombre servicio: consultaCcooEnviada_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 13, nombre servicio: consultaCcooPorIdDocumento
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 11, nombre servicio: consultaCcooEnviada
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 11, nombre servicio: consultaCcooEnviada
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 13, nombre servicio: consultaCcooPorIdDocumento
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 14, nombre servicio: consultaCcooBandeja
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 14, nombre servicio: consultaCcooBandeja
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 14, nombre servicio: consultaCcooBandeja
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 15, nombre servicio: consultaCcooBandeja_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 16, nombre servicio: consultaDocumentoUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 16, nombre servicio: consultaDocumentoUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 17, nombre servicio: consultaDocumentoUsuario_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 17, nombre servicio: consultaDocumentoUsuario_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 17, nombre servicio: consultaDocumentoUsuario_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 16, nombre servicio: consultaDocumentoUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 16, nombre servicio: consultaDocumentoUsuario
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 18, nombre servicio: consultaDocumentoPorId
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 19, nombre servicio: consultaDocumentoPorReparticion
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 19, nombre servicio: consultaDocumentoPorReparticion
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 19, nombre servicio: consultaDocumentoPorReparticion
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 19, nombre servicio: consultaDocumentoPorReparticion
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 19, nombre servicio: consultaDocumentoPorReparticion
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 20, nombre servicio: consultaDocumentoReparticion_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 21, nombre servicio: consultaDocumentoPorNumero
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario no autorizado 123345678
+INFO:root:Usuario no autorizado 123345678
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario no autorizado 122345678
+INFO:root:Usuario no autorizado 122345678
+INFO:root:Usuario no autorizado 122345678
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario autorizado 12345678
+INFO:root:Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario no autorizado 123452678
+INFO:root:Usuario no autorizado 123452678
+INFO:root:2021-11-09 11:49:52.043688 Usuario no autorizado 123452678
+INFO:root:2021-11-10 16:47:44.414702 Usuario autorizado 12345678
+INFO:root:2021-11-10 16:47:44.414702 Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
+INFO:root:2021-11-11 12:00:33.960920 Usuario autorizado 12345678
+INFO:root:2021-11-11 12:00:33.960920 Autorizado: Token: 12345678, grupo servicio: gedo, código servicio: 22, nombre servicio: consultaDocumentoTipo_Q
