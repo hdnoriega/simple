@@ -3,7 +3,7 @@ import json
 import re
 from conf.BBDD import datos
 
-def consultaDB(entorno, query):
+def consultaDB(entorno, query, **kwargs):
 
     try:
         matriz = {}
@@ -23,7 +23,12 @@ def consultaDB(entorno, query):
                 matriz[row,col] = cell
                 texto = str(cell)
 
-                texto = re.sub('[^A-Za-z0-9 ñÑ.áÁéÉíÍóÓúÚ]+', '', texto)
+                for kw in kwargs:
+                    try:
+                        if kwargs["clean"] == True:
+                            texto = re.sub('[^A-Za-z0-9 ñÑ.áÁéÉíÍóÓúÚ]+', '', texto)
+                    except Exception:
+                        pass
 
                 texto =  texto.replace('"', '\\"').replace("'", "\\'").replace("{", "\\{").replace("}", "\\}").replace("[","\\[").replace("]", "\\]").replace("\n","\\n")
                 if col == 0:

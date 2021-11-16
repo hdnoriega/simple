@@ -5,7 +5,7 @@ from bbdd.ConsultaDBOld import consultaDB
 def consultaReparticiones(entorno):
 
     try:
-        r = consultaDB(entorno, "SELECT CODIGO_REPARTICION, NOMBRE_REPARTICION FROM TRACK_SADE.SADE_REPARTICION") #WHERE CODIGO_REPARTICION LIKE 'DGG%
+        r = consultaDB(entorno, "SELECT CODIGO_REPARTICION, NOMBRE_REPARTICION FROM TRACK_SADE.SADE_REPARTICION", clean = True) #WHERE CODIGO_REPARTICION LIKE 'DGG%
         
         lista = []
 
