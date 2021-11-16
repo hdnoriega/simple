@@ -16,9 +16,8 @@ def updateEmployee(valor):
         usr = datos[valor["entorno"]+"usr"]
         pw =  datos[valor["entorno"]+"pw"]
 
-        listapermisos = listarPermisos(valor["entorno"])
+        listajson = listarPermisos(valor["entorno"])
 
-        listajson = json.loads(listapermisos.text)
         modificar = []
         for i in listajson:
             for j in valor["permisos"]:
