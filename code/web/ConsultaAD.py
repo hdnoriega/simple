@@ -8,7 +8,7 @@ def consultaAD(datita):
     conn.protocol_version = 3
     conn.set_option(ldap.OPT_REFERRALS, 0)
     try:
-        r = conn.simple_bind_s('BUENOSAIRES\\'+datita["usuario"], datita["pass"])
+        r = conn.simple_bind_s('BUENOSAIRES\\'+datita["cuit"], datita["password"])
     except Exception:
         return "NOK"
         pass
