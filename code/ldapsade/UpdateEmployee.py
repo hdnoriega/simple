@@ -23,7 +23,7 @@ def updateEmployee(valor):
             for j in valor["permisos"]:
                 if listajson[i][i+",0"] == j:
                     modificar.append(listajson[i][i+",1"])
-
+        modificar.append('GCABA')
         server = Server(con, get_info=ALL)
         conn = Connection(server, usr, pw, auto_bind=True)
 
